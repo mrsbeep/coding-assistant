@@ -12,6 +12,8 @@ An intelligent command-line tool that helps every developer code better using Op
 
 ## 🚀 Quick Start
 
+> **📖 New to the assistant? Check out our [Getting Started Guide](GETTING_STARTED.md) for a step-by-step walkthrough!**
+
 ### 1. Clone and Install
 
 ```bash
@@ -119,7 +121,7 @@ python coding_assistant.py ask "My Python script has a memory leak, how can I de
 ### Code Review
 
 ```bash
-python coding_assistant.py analyze complex_algorithm.py
+python coding_assistant.py analyze examples/sample_flask_app.py
 ```
 
 ### Learning New Concepts
@@ -133,6 +135,8 @@ python coding_assistant.py ask "Explain async/await in JavaScript with examples"
 ```bash
 python coding_assistant.py generate "Express.js server with JWT authentication" --language javascript --output server.js
 ```
+
+> **📚 More examples available in [examples/usage_examples.md](examples/usage_examples.md)**
 
 ## 🎯 Use Cases
 
